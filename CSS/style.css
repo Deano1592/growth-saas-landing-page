@@ -138,6 +138,14 @@ img {
   padding: 0 15px;
 }
 
+/* CARD */
+.card {
+  background: #fff;
+  color: #000;
+  border-radius: 10px;
+  padding: 20px;
+}
+
 /* BUTTONS */
 .btn {
   display: inline-block;
@@ -230,12 +238,4 @@ img {
 .bg-black {
   background: #000;
   color: #fff;
-}
-
-/* CARD */
-.card {
-  background: #fff;
-  color: #000;
-  border-radius: 10px;
-  padding: 20px;
 }
