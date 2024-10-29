@@ -158,6 +158,14 @@ img {
 }
 
 /* FAQ */
+.faq {
+  padding: 40px 0;
+}
+
+.faq .faq-group {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
 
 /* UTILITY CLASSES */
 .container {
