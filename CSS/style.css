@@ -169,11 +169,23 @@ img {
   margin: auto;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
+  align-items: center;
   background: #ccc;
   padding: 10px 20px;
   border-radius: 10px;
   font-weight: 600;
+  cursor: pointer;
+}
+
+.faq .faq-menu li {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.faq .faq-menu li.active {
+  background: var(--primary-color);
+  border-radius: 10px;
+  color: #fff;
 }
 
 .faq .faq-group {
