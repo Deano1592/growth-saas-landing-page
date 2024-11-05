@@ -25,6 +25,11 @@ document.addEventListener("DOMContentLoaded", () => {
     otherGroups.forEach((otherGroup) => {
       if (otherGroup !== group) {
         const otherGroupBody = otherGroup.querySelector(".faq-group-body");
+        const otherIcon = otherGroup.querySelector(".faq-group-header i");
+
+        otherGroupBody.classList.remove("open");
+        otherIcon.classList.remove("fa-minus");
+        otherIcon.classList.add("fa-plus");
       }
     });
   });
