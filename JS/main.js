@@ -1,5 +1,4 @@
 // FAQ ACCORDION
-
 document.addEventListener("DOMContentLoaded", () => {
   const faqContainer = document.querySelector(".faq-content");
 
@@ -33,4 +32,14 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   });
+});
+
+// MOBILE MENU
+document.addEventListener("DOMContentLoaded", () => {
+  const hamburgerButton = document.querySelector(".hamburger-button");
+  const mobileMenu = document.querySelector(".mobile-menu");
+
+  hamburgerButton.addEventListener("click", () =>
+    mobileMenu.classList.toggle("active")
+  );
 });
