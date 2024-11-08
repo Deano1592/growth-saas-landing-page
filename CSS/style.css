@@ -424,16 +424,38 @@ img {
 
 /* MEDIA QUERIES */
 @media (max-width: 960px) {
+  .text-xxl {
+    font-size: 2.5rem;
+  }
 }
 
 @media (max-width: 670px) {
   .navbar .main-menu {
     display: none;
   }
-}
 
-.navbar .hamburger-button {
-  display: block;
+  .navbar .hamburger-button {
+    display: block;
+  }
+
+  .hero .container {
+    background: url(/images/hero-bg-mobile.png) no-repeat;
+    background-size: 350px 400px;
+    background-position: bottom;
+    height: 770px;
+  }
+
+  .hero .hero-content,
+  .hero .hero-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero .hero-buttons .btn {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+  }
 }
 
 @media (max-width: 500px) {
