@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  outline: 1px solid lime;
+  /* outline: 1px solid lime; */
 }
 
 :root {
@@ -169,6 +169,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
   background: #ccc;
   padding: 10px 20px;
   border-radius: 10px;
@@ -492,4 +493,8 @@ img {
 }
 
 @media (max-width: 500px) {
+  /* TEXT */
+  .text-xxl {
+    font-size: 2rem;
+  }
 }
